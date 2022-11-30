@@ -1,0 +1,8 @@
+bgColor = #ffffff
+CbgColor = #4c6fff
+Cbg2Color = #d8deea
+ContainerBgColor = #f3f6fb
+ButtonColor = #4b6fff
+pinkColor = #f19db5
+grnnColor = #dcfded
+LightBlue = #f6fafd

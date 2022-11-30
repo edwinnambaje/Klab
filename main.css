@@ -1,0 +1,360 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+:root{
+	--bgColor: #ffffff;
+	--bg1Color: #4b6df9;
+	--bg2Color: #e1e7f1;
+	--ButtonColor: #4c6fff;
+	--pinkColor: #ff92ae;
+	--greenColor: #68cca0;
+	--LightgreenColor: #deffee;
+	--LightBlue: #e1e8ff;
+	--LightPink: #ffeef1;
+	--circle1: #f0f5fa;
+	--circle2: #f3f7fb;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right,var(--bg1Color) 0%,var(--bg1Color) 50%,var(--bg2Color) 50%,var(--bg2Color) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 85%;
+	height: 95vh;
+	background-color: #f7fafc;
+	border-radius: 30px;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: row;
+}
+
+.left{
+	width: 50%;
+	height: 100%;
+}
+
+.left img{
+	width: 100px;
+	height: 40px;
+	margin-left: 5%;
+	margin-top: 5%;
+	
+}
+
+.left-cycle{
+	width: 430px;
+	height: 430px;
+	border-radius: 50%;
+	margin-left: 10%;
+	background-image: radial-gradient(var(--bg1Color) 50%, var(--circle1) 25%, var(--circle2) 25%);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-card{
+	
+	width: 370px;
+	height: 230px;
+	background-color: white;
+	margin: 35px 25px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.left-card-header{
+	display: flex;
+	justify-content: space-between;
+
+	flex-direction: row;
+	margin: 15px 15px;
+}
+.left-card-header h1{
+	font-size: 15px;
+}
+.left-card-header a{
+	font-size: 12px;
+	color: var(--bg1Color);
+}
+
+.left-footer{
+	height: 100px;
+	width: 85%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.left-footer p{
+	font-size: 13px;
+}
+
+.footer-slider{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.slider-1{
+	width: 100px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: var(--bg1Color);
+}
+.slider-2{
+	width: 100px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(237, 231, 225, 1);
+}
+
+.cards-container{
+	height: 190px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+}
+.cards-container-left{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.outer-circle{
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+	background-image: conic-gradient(var(--bg2Color) 0deg, var(--bg2Color) 90deg, var(--bg1Color) 90deg, var(--bg1Color) 160deg, var(--pinkColor) 160deg, var(--pinkColor) 270deg, var(--bg2Color) 270deg, var(--bg2Color) 360deg);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.inner-circle{
+	width: 80px;
+	height: 80px;
+	background-color: var(--bgColor);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.left-circle-buttons{
+	width: 75%;
+	margin-bottom: 10px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.but-1{
+	width: auto;
+	height: 20px;
+	background-color: var(--LightBlue);
+	color: var(--bg1Color);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.left-circle-buttons p{
+	font-size: 10px;
+	padding: 5px;
+}
+.but-2{
+	width: auto;
+	height: 20px;
+	background-color: var(--LightgreenColor);
+	color: var(--greenColor);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.but-3{
+	width: auto;
+	height: 20px;
+	background-color: var(--LightPink);
+	color: var(--pinkColor);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards-container-right{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+.right-card{
+	width: 90%;
+	height: 80px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	border: 1px solid var(--bgColor);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.right-card h1{
+	margin: 10px 10px 3px;
+	font-size: 15px;
+	opacity: 0.7;
+}
+
+.right-card p{
+	font-weight: bold;
+	font-size: 15px;
+	
+	margin-left: 10px;
+}
+
+.right-card img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.toogle-button{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 150px;
+	height: 20px;
+	margin: 1ps 0 0 10px;
+	background-color: blue;
+}
+
+/*right-side*/
+.right{
+	width: 50%;
+	height: 100%;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-container{
+	width: 60%;
+	height: 87%;
+	border-radius: 20px;
+	background-color: var(--LightBlue);
+}
+.form-container h1{
+	margin-top: 25px;
+	font-size: 17px;
+	text-align: center;
+}
+.form-container p{
+	margin: 10px;
+	text-align: center;
+}
+label{
+	padding: 12px 12px 12px 30px;
+	display: inline-block;
+	font-size: 12px;
+}
+input{
+	padding: 10px;
+	width: 80%;
+	margin-left: 30px;
+	background: var(--bgColor);
+	border: 1px solid var(--bgColor);
+	box-shadow: 0 0 5px var(--bgColor);
+	border-radius: 5px;
+	color: var(--bg1Color);
+}
+
+input[type="submit"]{
+	padding: 10px;
+	width: 80%;
+	margin-left: 30px;
+	background: var(--bg1Color);
+	border: 1px solid var(--bgColor);
+	box-shadow: 0 0 5px var(--bgColor);
+	border-radius: 5px;
+	color: var(--bgColor);
+}
+.warning{
+	opacity: 0.7;
+	font-size: 14px;
+}
+.agree{
+	top: 0;
+}
+
+.agree p{
+	opacity: 0.7;
+	font-size: 12px;
+	text-align: center;
+}
+
+form div{
+	padding: 3px;
+}
+.agree input{
+	width: 10px;
+	height: 10px;
+	margin: 10px 5px;
+}
+
+.socials{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 80%px;
+	height: 40px;
+}
+
+.social-1{
+	width: 40px;
+	height: 35px;
+	background-color: var(--bgColor);
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.chat{
+	float: right;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-right: -85px;
+
+}
+
+.fa{
+	color: var(--bgColor);
+}
